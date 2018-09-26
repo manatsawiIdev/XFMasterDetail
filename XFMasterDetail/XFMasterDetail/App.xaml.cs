@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XFMasterDetail.Views;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace XFMasterDetail
@@ -11,7 +12,7 @@ namespace XFMasterDetail
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new MainView();
         }
 
         protected override void OnStart()
